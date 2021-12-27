@@ -1,0 +1,16 @@
+{
+  "name": "nighteaglestudios-docs",
+  "version": "1.0.0",
+  "description": "Official Documentation for Night Eagle Studios",
+  "main": "index.js",
+  "repository": "git@github.com:koel/nighteaglestudios.github.io.git",
+  "author": "DanSketic <dev@nighteaglestudios.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
+}
